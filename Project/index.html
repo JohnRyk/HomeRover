@@ -1,0 +1,103 @@
+<!--Create by: JohnRykZen 2019/6/1 - learn from it, then play well-->
+<html>
+<head>
+	<link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="http://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+	<link href="https://cdn.bootcss.com/jqueryui/1.12.1/jquery-ui.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HomeRover</title>
+
+	<div class="col-lg-12" style="height:50px">
+		<nav id='nav' class="navbar navbar-inverse">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<text class="navbar-brand">HomeRover</text>
+				</div>
+			</div>
+		</nav>
+	</div>
+</head>
+<style>
+	#nav{
+		background-color:mediumslateblue;
+		border: 0;
+	}
+	body{
+		text-align: center;
+	}
+	#panel{
+		margin:0 auto;
+		height: 100%;
+		background-color: hotpink;
+	}
+	body{
+            text-align: center;
+			height: 100%;
+        }
+	.container{
+		height: 100%;
+	}
+    #window{
+        width: 100%;
+    }
+
+    table{
+		margin: 0 auto;
+    }
+    .btn{
+        width: 90px;
+        height: 90px;
+        border-radius: 10px;
+        border: solid 2px #fff;
+    }
+
+	//进度条
+	.ui-progressbar {
+    	position: relative;
+
+  	}
+	#progressbar .ui-progressbar-value {
+    	background-color:mediumturquoise;
+  	}
+  	.progress-label {
+		position: absolute;
+    	left: 48%;
+		padding-top: 4px;
+    	font-weight: bold;
+    	text-shadow: 1px 1px 0 #fff;
+  	}
+</style>
+<body>
+	<div class="container">
+		<div id="x" class="col-lg-3"></div>
+		<div id="panel" class="col-lg-6" >
+			<div id="placeholder" style="padding-bottom: 200px"></div>
+			<div id="progressbar"><div class="progress-label">wait</div></div>
+			<img id="window" style="-webkit-user-select: none;" src="http://192.168.1.8:8090/?action=stream">
+
+			<table id="table">
+				<tr>
+					<td></td>
+					<td><button type="button" class="btn btn-info" id="up">up</button></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td><button type="button" class="btn btn-info" id="left">left</button></td>
+					<td><button type="button" class="btn btn-danger" id="light">light</button></td>
+					<td><button type="button" class="btn btn-info" id="right">right</button></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><button type="button" class="btn btn-info" id="down">down</button></td>
+					<td></td>
+				</tr>
+			</table>
+		</div>
+	<div>
+</body>
+</html>
+
+<script src='app.js' ></script>
