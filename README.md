@@ -4,7 +4,7 @@
 
 ## Materials：
 
-​	The frame and serval wheel, an USB camera, an USB wireless network adropter, Motor driver (L298N), some wire jumper , 18560 bettery and bettery holder (5v2a output) a voltage stabilizing module (XL6009E1) and our OrangePi PC
+​	The frame of our robot and serval wheel, an USB camera, an USB wireless network adropter, Motor driver (L298N), some wire jumper , a 18560 bettery and bettery holder (5v2a output), a voltage stabilizing module (XL6009E1) and our OrangePi PC x1
 
 ## Choosing Pins：
 
