@@ -1,6 +1,6 @@
 ## Intro：
 
-​	To create a simple wifi network telerobot with OrangePi PC.
+​	To create a simple wifi telerobot with OrangePi PC.
 
 ## Materials：
 
